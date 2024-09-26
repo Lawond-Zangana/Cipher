@@ -1,3 +1,2 @@
 # cipher
-
-See https://cse29sp24.github.io/docs/pas/pa1.html for PA instructions.
+The code described in this writeup will implement an Affine Cipher, a more complex version of the Caesar Cipher. It will encrypt and decrypt messages using two integer keys, which are used to transform the alphabet's offset for each letter. The program will first convert all uppercase letters to lowercase and will only encrypt letters from the English alphabet. It will compute the offset of each letter and apply mathematical transformations using the two keys to generate the encrypted (or decrypted) letter.
